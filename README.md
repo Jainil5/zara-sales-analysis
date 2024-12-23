@@ -5,31 +5,30 @@ This project performs an exploratory data analysis (EDA) on Zara clothing data u
 ---
 
 ## Features
-- **EDA with Pandas**: Cleaned, processed, and analyzed Zara clothing dataset to uncover key insights about product sales, pricing, and trends.
-- **Interactive Dashboard**: Built with Streamlit to allow users to dynamically explore:
+- **EDA with Pandas**: Cleaned, processed, and analyzed the Zara clothing dataset to uncover key insights about product sales, pricing, and trends.
+- **Interactive Dashboard**: Built with Streamlit to allow users to explore dynamically:
   - Sales by product category and sub-category.
   - Gender-specific sales trends.
   - Price distributions across products.
   - Top-selling products with detailed metrics.
-- **Customizable Filters**: Dropdowns and sliders to filter data by category, gender, and price range.
 
 ---
 
 ## Tech Stack
 - **Python**: Data manipulation and processing.
 - **Pandas**: For EDA and data wrangling.
-- **Streamlit**: For creating the interactive dashboard.
+- **Streamlit**: This is used to create the interactive dashboard.
 
 ---
 
 ## Installation and Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/zara-clothing-analysis.git
+   git clone https://github.com/Jainil5/zara-sales-analysis.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd zara-clothing-analysis
+   cd zara-sales-analysis
    ```
 3. Install the required dependencies:
    ```bash
@@ -57,12 +56,12 @@ The dataset contains the following columns:
 - **Price**
 - **Currency**
 
-> **Note**: The dataset is proprietary and not included in this repository. Replace `data.csv` with your dataset.
+> **Note**: The dataset is a sample dataset and does not refer to the original sales of ZARA.
 
 ---
 
 ## Usage
-- Explore sales trends across categories and gender.
+- Explore sales trends across categories and genders.
 - Identify high-performing products.
 - Analyze pricing and revenue distributions.
 
@@ -73,8 +72,6 @@ The dataset contains the following columns:
    - Dresses have the highest sales volume.
 2. **Gender Trends**:
    - Female-oriented products contribute 65% of sales.
-3. **Top Products**:
-   - The top-selling product is SKU: `XYZ123` with 10,000 units sold.
 
 ---
 
@@ -83,15 +80,6 @@ Check out the live demo here: [Streamlit App](https://share.streamlit.io/youruse
 
 ---
 
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
----
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
 
 ## Acknowledgments
 - **Pandas** for powerful data manipulation.
